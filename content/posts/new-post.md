@@ -1,7 +1,7 @@
 +++
 title = 'New Post'
 date = 2024-03-02T12:38:39Z
-draft = true
+draft = false
 author = "Sinan"
 +++
 
