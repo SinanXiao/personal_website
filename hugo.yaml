@@ -36,7 +36,7 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
   ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
+  ShowRssButtonInSectionTermList: false #true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
@@ -49,22 +49,23 @@ params:
   assets:
     disableHLJS: false # to disable highlight.js
     disableFingerprinting: false
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "images/favicon_io/favicon.ico" # "<link / abs url>"
+    favicon16x16: "images/favicon_io/favicon-16x16.png" #"<link / abs url>"
+    favicon32x32: "images/favicon_io/favicon-32x32.png" #"<link / abs url>"
+    apple_touch_icon: "images/favicon_io/apple-touch-icon.png" #"<link / abs url>"
+    safari_pinned_tab: "images/favicon_io/android-chrome-192x192.png" #"<link / abs url>"
 
+  # left upper display
   label:
     text: "Sinan"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    icon: "images/favicon_io/apple-touch-icon.png"
+    iconHeight: 30
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Sinan 
-    subtitle: "This is subtitle \U0001F44B"
+    title: Sinan
+    subtitle: "Hi there, welcome to my site \U0001F44B"
     imageUrl: "images/avatar.jpg"
     imageWidth: 120
     imageHeight: 120
@@ -95,8 +96,8 @@ params:
       url: "https://orcid.org/0000-0002-5775-6525"
     - name: github
       url: "https://github.com/SinanXiao"
-    # - name: email
-      # url: "sx450@bath.ac.uk"
+    - name: email
+      url: "mailto:sx450@bath.ac.uk"
     
     #- name: youtube
 
@@ -114,7 +115,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://sinanxiao.github.io/personal_website/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
     
@@ -140,7 +141,7 @@ menu:
       weight: 10
     - identifier: publications
       name: Publications
-      url: publication/
+      url: publications/
       weight: 20
     - identifier: posts
       name: Posts
@@ -168,23 +169,6 @@ markup:
     guessSyntax: true
     lineNos: true
     style: monokai
-  
-  # for math expression
-  goldmark:
-    extensions:
-      passthrough:
-        delimiters:
-          block:
-          - - \[
-            - \]
-          - - $$
-            - $$
-          inline:
-          - - \(
-            - \)
-          - - $
-            - $
-        enable: true
 
 outputs:
   home:

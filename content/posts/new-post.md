@@ -1,9 +1,9 @@
-+++
-title = 'New Post'
-date = 2024-03-02T12:38:39Z
-draft = false
-author = "Sinan"
-+++
+---
+title: 'New Post'
+date: 2024-03-02T12:38:39Z
+draft: false
+author: "Sinan"
+---
 
 <h1 align=center>Hugo PaperMod | <a href="https://adityatelange.github.io/hugo-PaperMod/" rel="nofollow">Demo</a></h1>
 
