@@ -87,12 +87,17 @@ params:
     #  url: "https://x.com/"
     #- name: stackoverflow
     #  url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
-    - name: email
-      # url: "sx450@bath.ac.uk"
+    - name: researchgate
+      url: "https://www.researchgate.net/profile/Sinan-Xiao"
     - name: googlescholar
+      url: "https://scholar.google.com/citations?user=AUKMRrYAAAAJ&hl=en&oi=ao"
     - name: orcid
+      url: "https://orcid.org/0000-0002-5775-6525"
+    - name: github
+      url: "https://github.com/SinanXiao"
+    # - name: email
+      # url: "sx450@bath.ac.uk"
+    
     #- name: youtube
 
   analytics:
